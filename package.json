@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/main.js",
   "scripts": {
+    "build": "webpack",
     "test": "echo \"no test specified\" && exit 0",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
