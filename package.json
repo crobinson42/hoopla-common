@@ -1,0 +1,23 @@
+{
+  "name": "hoopla-common",
+  "version": "0.0.0-development",
+  "description": "",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crobinson42/hoopla-common.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crobinson42/hoopla-common/issues"
+  },
+  "homepage": "https://github.com/crobinson42/hoopla-common#readme",
+  "devDependencies": {
+    "semantic-release": "^6.3.2"
+  }
+}
