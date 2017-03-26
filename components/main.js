@@ -1,6 +1,6 @@
 import React from 'react';
-import './header.scss'
-import './footer.scss'
+import './Header.scss'
+import './Footer.scss'
 
 const app = () => {
 	return (
