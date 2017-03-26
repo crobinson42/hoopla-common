@@ -27,8 +27,6 @@ export default {
 		libraryTarget: 'umd'
 	},
 	plugins: [
-		new ExtractTextPlugin({
-		 filename: 'style.css'
-		})
+		new ExtractTextPlugin('style.css')
 	],
 };
