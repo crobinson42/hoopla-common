@@ -9,4 +9,12 @@ const app = () => {
 	)
 };
 
+export const footer = () => {
+	return (
+		<div className="Footer">
+			This is the footer...
+		</div>
+	)
+}
+
 export default app;
