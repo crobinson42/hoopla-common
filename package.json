@@ -19,9 +19,7 @@
   },
   "homepage": "https://github.com/crobinson42/hoopla-common#readme",
   "devDependencies": {
-    "semantic-release": "^6.3.2"
-  },
-  "dependencies": {
+    "semantic-release": "^6.3.2",
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.2.2",
     "babel-preset-react": "^6.23.0",
@@ -29,9 +27,11 @@
     "css-loader": "^0.27.3",
     "extract-text-webpack-plugin": "^2.1.0",
     "node-sass": "^4.5.1",
-    "react": "^15.4.2",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.16.0",
     "webpack": "^2.3.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2"
   }
 }
