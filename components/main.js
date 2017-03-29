@@ -5,16 +5,24 @@ import './Footer.scss'
 const app = () => {
 	return (
 		<div>
-			<Header />
+			<Header onClick={() => alert('You clicked on the header!')} />
 
-			<Footer />
+			<Footer/>
 		</div>
 	)
 };
 
 export const Footer = () => {
+	const _handleMouseEnter = (e) => {
+		e.target.addClass('bang')
+	}
+
+	const _handleMouseLeave = (e) => {
+		e.target.removeClass('bang')
+	}
+
 	return (
-		<div className="Footer">
+		<div className="Footer" onMouseEnter={_handleMouseEnter} onMouseLeave={_handleMouseLeave}>
 			This is the footer...
 		</div>
 	)
