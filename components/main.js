@@ -4,16 +4,26 @@ import './Footer.scss'
 
 const app = () => {
 	return (
-		<div className="Header">
-			This is the Header!
+		<div>
+			<Header />
+
+			<Footer />
 		</div>
 	)
 };
 
-export const footer = () => {
+export const Footer = () => {
 	return (
 		<div className="Footer">
 			This is the footer...
+		</div>
+	)
+}
+
+export const Header = () => {
+	return (
+		<div className="Header">
+			This is the Header!
 		</div>
 	)
 }
