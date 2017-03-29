@@ -14,11 +14,11 @@ const app = () => {
 
 export const Footer = () => {
 	const _handleMouseEnter = (e) => {
-		e.target.addClass('bang')
+		e.target.classList.add('bang')
 	}
 
 	const _handleMouseLeave = (e) => {
-		e.target.removeClass('bang')
+		e.target.classList.remove('bang')
 	}
 
 	return (
