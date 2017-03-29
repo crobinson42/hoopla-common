@@ -4,7 +4,9 @@
   width: 100%;
   padding: 50px 0;
   text-align: center;
-  font-size: 24px; }
+  font-size: 24px;
+}
+
 .Footer {
   position: fixed;
   bottom: 0;
@@ -12,4 +14,9 @@
   color: ghostwhite;
   width: 100%;
   padding: 20px 0;
-  text-align: center; }
+  text-align: center;
+}
+
+.bang {
+  transform: scaleX(2);
+}
