@@ -3,7 +3,7 @@ import './Header.scss'
 import './Footer.scss'
 import './Button.scss'
 
-export default Navigation = () => {
+export default () => {
 	return (
 		<div>
 			<Header onClick={() => alert('You clicked on the header!')} />
