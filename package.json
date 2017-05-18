@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/crobinson42/hoopla-common#readme",
   "devDependencies": {
-    "semantic-release": "^6.3.2",
+    "semantic-release": "^6.1.x",
     "babel-loader": "^6.4.1",
     "babel-preset-env": "^1.2.2",
     "babel-preset-react": "^6.23.0",

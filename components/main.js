@@ -1,8 +1,9 @@
 import React from 'react';
 import './Header.scss'
 import './Footer.scss'
+import './Button.scss'
 
-const app = () => {
+export default Navigation = () => {
 	return (
 		<div>
 			<Header onClick={() => alert('You clicked on the header!')} />
@@ -10,7 +11,7 @@ const app = () => {
 			<Footer/>
 		</div>
 	)
-};
+}
 
 export const Footer = () => {
 	const _handleMouseEnter = (e) => {
@@ -36,4 +37,10 @@ export const Header = () => {
 	)
 }
 
-export default app;
+export const Button = () => {
+	return (
+		<button className="Button">
+			Click
+		</button>
+	)
+}
